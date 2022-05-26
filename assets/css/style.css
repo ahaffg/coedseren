@@ -15,7 +15,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -69,6 +69,7 @@ header {
 }
 
 .menuitem a i {
+    font-family: "Laila", sans-serif;
     padding-top: 22px;
     display: block;
     color: #fafafa;
