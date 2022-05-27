@@ -44,6 +44,7 @@ h2 {
 
 #menu li {
     float: right;
+    margin-top: 10px;
     margin-right: 30px;
 }
 
@@ -63,7 +64,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../assets/coedseren-images/pexels-alina-vilchenko.png) no-repeat center center;
+    background: url("../images/pexels-alina-vilchenko-medium.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -101,9 +102,10 @@ h2 {
 }
 
 #circle-cover-bg {
-    background: url("../assets/coedseren-images/coedseren-logo-bach.jpg") no-repeat center center;
+    background: url("../images/coedseren-logo-bach.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    margin-top: 10px;
 }
 
 
