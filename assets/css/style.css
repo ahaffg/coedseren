@@ -15,8 +15,10 @@ body {
     color: #777777;
 }
 
+
 nav div {
     background-color: #777777;
+    position: static;
 }
 
 h2 {
@@ -37,7 +39,6 @@ h2 {
     letter-spacing: 4px;
 }
 
-#logo,
 #menu {
     line-height: 75px;
 }
@@ -61,13 +62,28 @@ h2 {
     border-bottom: 1px solid #777777;
 }
 
-#hero-image {
+.main-logo {
+    background: url("../assets/coedseren-images/coedseren-logo.jpg");
+    border-radius: 50%;
+    margin-left: 50%;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+#hero-outer {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-alina-vilchenko-medium.jpg") no-repeat center center;
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+
 }
 
 #hero-outer {
@@ -76,6 +92,14 @@ h2 {
     overflow: hidden;
     position: relative;
 }
+
+.card {
+    display: inline-block;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
 
 @keyframes hero-zoom {
     from {
@@ -87,40 +111,38 @@ h2 {
     }
 }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
+.card {
+    font-size: 100%;
+    font-family: laila;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(30, 30, 30, 0.7);
+
+    position: relative;
+    margin-top: 20%;
+    margin-left: 10%;
 }
 
+/* footer */
 
-#circle-container {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    border-radius: 50%;
-    margin: 0 auto;
+footer {
+    height: 150px;
 }
 
-#circle-cover-bg {
-    background: url("../images/coedseren-logo-bach.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-    margin-top: 10px;
+.social-networks {
+    text-align: center;
+
 }
 
-
-@media screen and (max-width: 943px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+.social-networks li {
+    display: inline;
 }
 
-@media screen and (max-width: 800px) {
-    #photo {
-        column-count: 2;
-    }
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: rgba(30, 30, 30);
 }
