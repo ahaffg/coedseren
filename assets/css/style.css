@@ -111,6 +111,10 @@ h2 {
     }
 }
 
+/* cards */
+
+ 
+
 .card {
     font-size: 100%;
     font-family: laila;
@@ -125,6 +129,15 @@ h2 {
     margin-left: 10%;
 }
 
+h2  {
+    font:charm;
+    color: gainsboro;
+    font-size: 130%;
+}
+
+.card-img-top{
+    background: url("../images/pexels-arina-krasnikova-6998231.jpg");
+}
 /* footer */
 
 footer {
