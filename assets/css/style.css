@@ -75,21 +75,7 @@ body {
     font-size: x-large;
 }
 
-.features-container{
-height: 100vh;
 
-background: gainsboro
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
-display: flex;
-align-items: center;
-justify-content: center;
-
-position: relative;
-}
 
 
 .callout-text {
@@ -111,21 +97,47 @@ position: relative;
 }
 
 /* cards */
+.features-container{
+height: 100vh;
 
+background: gainsboro
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+position: relative;
+}
  
-
 .card {
     display: inline-block;
     font-size: 100%;
     font-family: laila;
     background-color: rgba(30, 30, 30, 0.7);
     position: relative;
-    margin: 30 30;
+    margin: 20 20;
 }
 
 .card h5 {
     text-decoration:underline gainsboro;
 }
+
+.jumbotron{
+    background-image: url("/assets/images/coedseren-logo-cylch.png") center center no-repeat;
+}
+
+.jumbotron h1{
+    color: #555;
+}
+
+.jumbotron p {
+    color: #333;
+}
+
 
 .social-networks{
     text-align: center;
