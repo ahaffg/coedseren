@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Charm:300|Laila:300');
 
-* {
+/** {
     margin: 0;
     padding: 0;
     border: 0;
-}
+}*/
 
 body {
     background-color: gainsboro;
@@ -19,10 +19,15 @@ body {
 #menu {
     font-family: laila;
     color:gainsboro;
+    
     line-height: 75px;
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
+}
+
+.navbar {
+    background-color: rgba(30, 30, 30, 0.7) ;
 }
 
 #menu li {
@@ -61,6 +66,15 @@ body {
 }
 
 
+.callout-text {
+    background-color: rgba(30, 30, 30, 0.7);
+    padding: 20px;
+}
+
+.callout-text p {
+    font-size: x-large;
+}
+
 .features-container{
 height: 100vh;
 
@@ -78,7 +92,7 @@ position: relative;
 }
 
 
-.card {
+.callout-text {
     display: inline-block;
     animation-name: hero-zoom;
     animation-duration: 3s;
@@ -101,7 +115,7 @@ position: relative;
  
 
 .card {
-    display:flexbox;
+    display: inline-block;
     font-size: 100%;
     font-family: laila;
     background-color: rgba(30, 30, 30, 0.7);
@@ -113,25 +127,41 @@ position: relative;
     text-decoration:underline gainsboro;
 }
 
-
-/* footer */
-footer{
-    height: 150px;
-}
-
 .social-networks{
     text-align: center;
-
 }
+
 
 .social-networks li{
+    font-size: 250%;
+    text-decoration: none;
+    list-style-type: none;
+    padding:50px;
     display: inline;
 }
 
-.social-networks i{
-    font-size: 250%;
-    margin: 20%;
-    padding: 5%;
-    color: #777777;
-    display: inline;
+.social-networks i {
+    color: gainsboro;
 }
+
+.footer-container {
+    height: 20vh;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgba(30, 30, 30, 0.7);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    }
+    
+    #disclaimer p {
+        color: #555;
+        text-align: center;
+    }
