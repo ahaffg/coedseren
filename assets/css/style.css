@@ -76,9 +76,6 @@ body {
     font-size: x-large;
 }
 
-
-
-
 .callout-text {
     display: inline-block;
     animation-name: hero-zoom;
@@ -119,7 +116,7 @@ margin-top: 10vh;
     font-family: laila;
     background-color: rgba(30, 30, 30, 0.7);
     position: relative;
-    /*margin: 20 20;*/
+
 }
 
 .card h5 {
@@ -139,12 +136,9 @@ margin-top: 10vh;
     color: gainsboro;
 }
 
-.jumbotron{
-    background-image: url("/assets/images/coedseren-logo-cylch.png") center center no-repeat;
-}
-
-.jumbotron h1{
-    color: #555;
+.jumbotron h2 {
+    background-color: rgba(30, 30, 30, 0.7);
+    padding: 20px;
 }
 
 .jumbotron p {
