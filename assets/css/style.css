@@ -126,6 +126,19 @@ margin-top: 10vh;
     text-decoration:underline gainsboro;
 }
 
+.container-healing div {
+    background-color: rgb(104, 104, 104);
+    display: inline-flexbox;
+}
+
+.container-healing h5 {
+    color: #999;
+}
+
+.container-healing p {
+    color: gainsboro;
+}
+
 .jumbotron{
     background-image: url("/assets/images/coedseren-logo-cylch.png") center center no-repeat;
 }
