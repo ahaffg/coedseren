@@ -99,13 +99,25 @@ I hope that I am also able to demonstrate a wide range of functions within the w
 6.	GitHub: GitHub is used to store the projects code after being pushed from Git.
 7.	Balsamiq: Balsamiq was used to create the wireframes during the design process.
 
+## Testing
+
+### "Home"
+Although I could have employed a toggle function to colapse the nav bar on mobile devices, I actually really like how it looks in the smaller version. I feel its still legible and looks very stylish so have decided to keep it as it is.
+
+### "Wear"
+*It shoulud be noted that the code for the 'card' elements in this section do not display inline CSS written by myself, but instead are part of the original Bootstrap[https://getbootstrap.com/docs/4.3/components/card/] code.*
+	`<div class="card" style="width: 18rem;">`
+
+### "Healing"
+This page was originally designed to be a link within the landing page (to demonstrate my ability to link withi pages as well as to other pages)to the large text area, however I thought that on a mobile device it would look better if the contents were more spread out.
+
 ## Credits
 - Code Institute for fantastic resources and learing materials.
 - Tutors for their support and knowledge.
 - My mentor [Martina Terlević](https://www.linkedin.com/in/martinaterlevic/) for all the suppot and fantastic information.
 
 ## Code
--Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid 
+- Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid 
 
 ## System.
 - [Markdown Cheat Sheets](https://www.markdownguide.org/cheat-sheet) Used to help me costruct this document.

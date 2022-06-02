@@ -120,7 +120,6 @@ margin-top: 10vh;
 
 .container-healing div {
     background-color: rgb(104, 104, 104);
-    display: inline-flexbox;
 }
 
 .container-healing h5 {
@@ -131,8 +130,12 @@ margin-top: 10vh;
     color: gainsboro;
 }
 
-.jumbotron{
+.jumbotron {
     align-self: center;
+}
+
+.jumbotron h2 {
+    color: #333;
 }
 
 .jumbotron h1 {
@@ -185,10 +188,6 @@ margin-top: 10vh;
 
     /* connect */
 
-    #form-background {
-    background-image: url("/assets/images/pexels-alina-vilchenko-3610752.jpg") center center no-repeat;
-}
-
 form label {
     color: #555;
 }
@@ -209,3 +208,12 @@ button {
     color: #333;
 }
 
+#emma {
+    display: flex;
+    justify-content: center;
+}
+
+#button-connect {
+    display: flex;
+    justify-content: center;
+}
