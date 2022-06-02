@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Charm:300|Laila:300');
-
-/** {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}*/
+@import url('https://fonts.googleapis.com/css?family=Laila:300');
 
 body {
     background-color: gainsboro;
@@ -95,6 +89,7 @@ body {
 }
 
 /* cards */
+
 .features-container{
 height: 80vh;
 
@@ -136,15 +131,18 @@ margin-top: 10vh;
     color: gainsboro;
 }
 
-.jumbotron h2 {
-    background-color: rgba(30, 30, 30, 0.7);
+.jumbotron{
+    align-self: center;
+}
+
+.jumbotron h1 {
+    color: rgba(30, 30, 30, 0.7);
     padding: 20px;
 }
 
 .jumbotron p {
     color: #333;
 }
-
 
 .social-networks{
     text-align: center;
@@ -178,27 +176,36 @@ margin-top: 10vh;
     justify-content: center;
     
     position: relative;
-    }
-    
-    #disclaimer p {
-        color: #555;
-        text-align: center;
-    }
+}
+   
+#disclaimer p {
+    color: #555;
+    text-align: center;
+}
 
     /* connect */
 
     #form-background {
-        background-image: url("/assets/images/pexels-alina-vilchenko-3610752.jpg") center center no-repeat;
-    }
+    background-image: url("/assets/images/pexels-alina-vilchenko-3610752.jpg") center center no-repeat;
+}
 
-    form label {
-        color: #555;
-    }
+form label {
+    color: #555;
+}
 
-    form p {
-        color: #555;
-    }
+form p {
+    color: #555;
+}
 
-    button {
-        text-align: center;
-    }
+button {
+    text-align: center;
+}
+
+.container-fluid h2 {
+    color: #333;
+}
+
+#gallery h1 { 
+    color: #333;
+}
+

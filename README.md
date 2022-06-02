@@ -84,6 +84,7 @@ I hope that I am also able to demonstrate a wide range of functions within the w
 - Wholesale orders.
 
 ## Technologies Used
+- Gimp, to edit images.
 
 ## Languages Used
 - HTML5
@@ -114,6 +115,6 @@ I hope that I am also able to demonstrate a wide range of functions within the w
 - All other content was written by the client (Emma Towner - Coedseren Healing) and the developerdeveloper.
 
 ## Media
--[Aliana Vilchenko](https://www.pexels.com/@monstera/collections/) Hero Image
--[Arina Krasnikova](https://www.pexels.com/@arina-krasnikova/) Reiki and Crystal healing images.
--[Emma Towner](https://www.instagram.com/Coedseren/) Logo and images of jewelry.
+- [Aliana Vilchenko](https://www.pexels.com/@monstera/collections/) Hero Image
+- [Arina Krasnikova](https://www.pexels.com/@arina-krasnikova/) Reiki and Crystal healing images.
+- [Emma Towner](https://www.instagram.com/Coedseren/) Logo and images of jewelry.
