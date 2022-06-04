@@ -97,12 +97,13 @@ background: gainsboro;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
-display: flex;
+background-size:over;
+display: inline-flexbox;
 align-items: center;
 justify-content: center;
 position: relative;
 margin-top: 10vh;
+overflow-block: scroll;
 }
  
 .card {
@@ -110,7 +111,7 @@ margin-top: 10vh;
     font-size: 100%;
     font-family: laila;
     background-color: rgba(30, 30, 30, 0.7);
-    position: relative;
+    position:relative;
 
 }
 
@@ -147,23 +148,6 @@ margin-top: 10vh;
     color: #333;
 }
 
-.social-networks{
-    text-align: center;
-}
-
-
-.social-networks li{
-    font-size: 250%;
-    text-decoration: none;
-    list-style-type: none;
-    padding:50px;
-    display: inline;
-}
-
-.social-networks i {
-    color: gainsboro;
-}
-
 .footer-container {
     height: 20vh;
     text-decoration: none;
@@ -173,13 +157,22 @@ margin-top: 10vh;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    display: flex;
+    display: inline-flexbox;
     align-items: center;
     justify-content: center;
-    
     position: relative;
 }
+
+.social-networks i{
+    font-size: 250%;
+    text-decoration: none;
+    list-style-type: none;
+    padding:50px;
+    display: flexbox;
+    color: gainsboro;
+}
+
+
    
 #disclaimer p {
     color: #555;
