@@ -6,7 +6,7 @@
 
 ### Brief
 
-A local woman with an expanding jewellery, Crystal Healing and Reiki business wants a website to showcase her work, and to provide information about her Reiki and Crystal healing services. The main requirements from the client are:
+A local woman with an expanding jewellery, Crystal Healing and Reiki business wants a website to showcase her jewelry, and to provide information about her Reiki and Crystal healing services. The main requirements from the client are:
 -	A gallery of her jewellery and links to where they can be bought.
 -	Information about her Reiki and Crystal healing services and her qualifications.
 -	A means of contacting the client with a view to engage her for healing sessions or wholesale or custom enquiries for her jewellery.
@@ -112,6 +112,7 @@ Although I could have employed a toggle function to colapse the nav bar on mobil
 This page was originally designed to be a link within the landing page (to demonstrate my ability to link withi pages as well as to other pages)to the large text area, however I thought that on a mobile device it would look better if the contents were more spread out.
 
 ## Credits
+- [w3schools](https://www.w3schools.com/Css/css_image_gallery.asp) for responsive css gallery code used on the "Wear" page gallery.
 - Code Institute for fantastic resources and learing materials.
 - Tutors for their support and knowledge.
 - My mentor [Martina Terlević](https://www.linkedin.com/in/martinaterlevic/) for all the suppot and fantastic information.
