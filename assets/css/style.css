@@ -1,82 +1,138 @@
-@import url('https://fonts.googleapis.com/css?family=Laila:300');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body {
     background-color: gainsboro;
 }
 
 body {
-    font-family: Laila;
-    color:gainsboro;
+    font-family: 'Laila', serif;
+    font-weight: 300;
+    color: #333;
 }
 
+h1 {
+    font-size: 260%;
+    letter-spacing: 2px;
+}
 
-#menu {
-    font-family: laila;
-    color:gainsboro;
-    
-    line-height: 75px;
-    font-size: 110%;
-    list-style-type: none;
+h2 {
+    font-weight: 500;
+    font-size: 130%;
     letter-spacing: 4px;
 }
 
-.navbar {
-    background-color: rgba(30, 30, 30, 0.7) ;
+h3 {
+    font-weight: 500;
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-size: 1.2vw;
+    color: #333;
+    text-align: justify;
+}
+
+span {
+    color: #333;
+    font-weight: bold;
+}
+
+/* header and logo */
+
+header {
+    background-color: gainsboro;
+    height: 80px;
+    width: 100%;
+    margin-top: -80px;
+    position: fixed;
+    z-index: 5;
+}
+
+#logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    height: auto;
+    width: 5%;
+}
+
+/* navigation links */
+
+#menu {
+    margin-right: 20px;
 }
 
 #menu li {
-    text-align: center;
+    font-size: 1.2vw;
     float: right;
-    margin-top: 10px;
-    margin-right: 30px;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #999;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #999;
 }
 
 .active {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #999;
 }
 
-.callout-container {
-    height: 100vh;
+/* hero image section */
 
-    background: url('/assets/images/pexels-alina-vilchenko-3610752.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+#hero-image-section {
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+    overflow: hidden;
     position: relative;
 }
 
-
-.callout-text {
-    background-color: rgba(30, 30, 30, 0.7);
-    padding: 20px;
+#hero-image {
+    height: auto;
+    width: 100vw;
+    position: relative;
 }
 
-.callout-text p {
-    font-size: x-large;
+#hero-image-text {
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    position: absolute;
 }
 
-.callout-text {
-    display: inline-block;
+#hero-image-text h1 {
+    font-size: 5vw;
+    font-weight: lighter;
+    margin-top: auto;
+    color: gainsboro;
     animation-name: hero-zoom;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
+#hero-image-text h3 {
+    font-size: 1vw;
+    margin-top: auto;
+    color: #999;
+}
 
 @keyframes hero-zoom {
     from {
@@ -88,124 +144,793 @@ body {
     }
 }
 
-/* cards */
+/* about Coedseren */
 
-.features-container{
-height: 80vh;
-
-background: gainsboro;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:over;
-display: inline-flexbox;
-align-items: center;
-justify-content: center;
-position: relative;
-margin-top: 10vh;
-overflow-block: scroll;
+#about-me {
+    width: 100%;
+    height: auto;
 }
- 
-.card {
+
+.my-mission {
+    width: 60%;
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+#about-me h2 {
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    color: #999;
+    text-align: center;
+}
+
+#about-me p {
+    font-size: 1.2vw;
+    color: #333;
+    padding: 0 15%;
+    text-align: justify;
+
+}
+
+/* about section */
+
+#about-section {
+    width: 100%;
+}
+
+#about-section-content {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 30px 50px 20px 50px;
+}
+
+.about-image {
+    width: 250px;
+}
+
+.about {
     display: inline-block;
-    font-size: 100%;
-    font-family: laila;
+    vertical-align: middle;
+
+}
+
+#left-about {
+    width: 45%;
+}
+
+#right-about {
+    width: 45%;
+}
+
+#about-reiki-header {
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#about-reiki-content {
+    font-size: 1.2vw;
+    color: #333;
+    padding: 0 20%;
+    text-align: center;
+    margin: -10px 10px 10px 10px;
+}
+
+#about-crystal-healing-header {
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#about-crystal-healing-content {
+    font-size: 1.2vw;
+    color: #333;
+    padding: 0 20%;
+    text-align: center;
+    margin: -10px 10px 10px 10px;
+}
+
+/* footer */
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    text-align: center;
     background-color: rgba(30, 30, 30, 0.7);
-    position:relative;
-
 }
 
-.card h5 {
-    text-decoration:underline gainsboro;
+.social-networks {
+    text-align: center;
 }
 
-.container-healing div {
-    background-color: rgb(104, 104, 104);
+.social-networks>li {
+    display: inline;
 }
 
-.container-healing h5 {
-    color: rgb(223, 223, 223);
-}
-
-.container-healing p {
+.social-networks i {
+    font-size: 160%;
+    padding: 60px;
     color: gainsboro;
 }
 
-.jumbotron {
-    align-self: center;
-}
+/* wear page */
 
-.jumbotron h2 {
-    color: #333;
-}
-
-.jumbotron h1 {
-    color: rgba(30, 30, 30, 0.7);
-    padding: 20px;
-}
-
-.jumbotron p {
-    color: #333;
-}
-
-.footer-container {
-    height: 20vh;
-    text-decoration: none;
-    list-style-type: none;
-    background-color: rgba(30, 30, 30, 0.7);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: inline-flexbox;
-    align-items: center;
-    justify-content: center;
+#wear-hero-image-section {
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
     position: relative;
 }
 
-.social-networks i{
-    font-size: 250%;
-    text-decoration: none;
-    list-style-type: none;
-    padding:50px;
+#wear-hero-image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* jewellry-about */
+
+#jewellry-about {
+    width: 100%;
+    height: auto;
+}
+
+.jewelry-ethos {
+    width: 60%;
+    height: auto;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+#jewellry-about h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3.4vw;
+    color: #333;
+}
+
+#jewellry-about h2 {
+    font-size: 1.8vw;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#jewellry-about p {
+    font-size: 1.2vw;
+    color: #333;
+    padding: 0 15%
+}
+
+.btn-secondary {
     display: flexbox;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* contact page */
+
+#contact-hero-image-section {
+    margin-top: 80px;
+    height: max-content;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#contact-hero-image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* contact form section */
+
+#contact-form-section {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    width: 60%;
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+#contact-form-section h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3.4vw;
+    color: #333;
+}
+
+#contact-form-section h2 {
+    font-size: 1.8vw;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#contact-form-div {
+    width: 100%;
+}
+
+#contact-form {
+    background-color: #888;
+    text-align: left;
+    padding: 10px 50px 20px 50px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#contact-form h3 {
+    color: #222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.text-input {
+    background: white;
+    color: #333;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border: 2px solid gainsboro;
+}
+
+.send-button {
+    color: #333;
+    text-align: center;
+    font-size: 100%;
+    background-color: gainsboro;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.send-button:hover {
     color: gainsboro;
+    background-color: #333;
 }
 
-   
-#disclaimer p {
-    color: #555;
+/* thank you page */
+
+#thankyou-hero-image-section {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    height: max-content;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#thankyou-hero-image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#thankyou-section {
+    width: 100%;
+    height: 280px;
+    margin-top: 90px;
+}
+
+.thankyou {
+    width: 60%;
+    height: auto;
     text-align: center;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
-    /* connect */
-
-form label {
-    color: #555;
-}
-
-form p {
-    color: #555;
-}
-
-button {
+#thankyou-section h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
     text-align: center;
-}
-
-.container-fluid h2 {
+    font-size: 3.4vw;
     color: #333;
 }
 
-#gallery h1 { 
-    color: #333;
+#thankyou-section h2 {
+    font-size: 1.8vw;
+    color: #444;
+    text-align: center;
+    margin-top: 10px;
 }
 
-#emma {
-    display: flex;
-    justify-content: center;
+#thankyou-section p {
+    font-size: 1.2vw;
+    color: #555;
+    padding: 0 15%
 }
 
-#button-connect {
-    display: flex;
-    justify-content: center;
-} */
+@media screen and (min-width: 480px) and (max-width: 920px) {
+
+    #menu li {
+        font-size: 2vw;
+    }
+
+    #menu {
+        line-height: 60px;
+    }
+
+    header {
+
+        height: 60px;
+        margin-top: -60px;
+        position: absolute;
+    }
+
+    #logo {
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: auto;
+    }
+
+    #about-me h2 {
+        font-size: 3vw;
+    }
+
+    #about-me p {
+        font-size: 2vw;
+    }
+
+    .my-mission {
+        width: 75%;
+    }
+
+    #about-section {
+        width: 100vw;
+    }
+
+    #about-section-content {
+        padding: 0;
+    }
+
+    .about-image {
+        width: 200px;
+    }
+
+    .about {
+        vertical-align: middle;
+        position: relative
+    }
+
+    #about-reiki-content {
+        margin: 0 0 0 0;
+    }
+
+    #left-about {
+        width: 100%;
+    }
+
+    #right-about {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #about-reiki-header {
+        font-size: 3vw;
+    }
+
+    #about-reiki-content {
+        font-size: 2vw;
+    }
+
+    #about-crystal-healing-header {
+        font-size: 3vw;
+    }
+
+    #about-crystal-healing-content {
+        font-size: 2vw;
+    }
+
+    /* Classes page */
+
+    .choose-your-class {
+        width: 80%;
+    }
+
+    #about-our-classes h2 {
+        font-size: 2vw;
+    }
+
+    #about-our-classes p {
+        font-size: 1.5vw;
+    }
+
+    .classes {
+        padding-bottom: 10px;
+    }
+
+    /* contact page */
+
+    #contact-form-section h1 {
+        font-size: 5vw;
+    }
+
+    #contact-form-section h2 {
+        font-size: 3.4vw;
+    }
+
+    #contact-form-div {
+        width: 100%;
+    }
+
+    #contact-form {
+        width: 50%;
+    }
+
+    #details-div {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        background-color: gainsboro;
+        padding-top: 20px;
+    }
+
+    /* thank-you section */
+
+    #thankyou-section {
+        width: 100vw;
+        height: 570px;
+        margin-top: 150px;
+    }
+
+    #thankyou-section h1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 6vw;
+        color: #333;
+    }
+
+    #thankyou-section h2 {
+        text-transform: uppercase;
+        font-size: 3.4vw;
+        color: #444;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #thankyou-section p {
+        font-size: 3vw;
+        color: #555;
+        padding: 0 15%
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+    #menu li {
+        font-size: 2.8vw;
+        margin-right: 30px;
+    }
+
+    #menu {
+        line-height: 60px;
+    }
+
+    header {
+        height: 60px;
+        margin-top: -60px;
+        position: absolute;
+    }
+
+    #logo {
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: auto;
+        margin-left: 30px;
+    }
+
+    #hero-image-text h1 {
+        font-size: 6vw;
+    }
+
+    #hero-image-text h3 {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+    #about-me h2 {
+        font-size: 4vw;
+    }
+
+    #about-me p {
+        font-size: 8vw;
+    }
+
+    .my-mission {
+        width: 100%;
+    }
+
+    #about-section {
+        width: 100vw;
+    }
+
+    .about-image {
+        width: 200px;
+    }
+
+    .about {
+        vertical-align: middle;
+        position: relative
+    }
+
+    #left-about {
+        width: 100%;
+    }
+
+    #right-about {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #about-reiki-header {
+        font-size: 3.6vw;
+    }
+
+    #about-reiki-content {
+        font-size: 3vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    #about-crystal-healing-header {
+        font-size: 3.6vw;
+    }
+
+    #about-crystal-healing-content {
+        font-size: 3vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* footer info */
+
+    footer {
+        height: 110px;
+    }
+
+    .social-networks i {
+        font-size: 140%;
+        padding: 40px 30px;
+    }
+
+    /*wear - jewelry page */
+
+    #wear-hero-image {
+        margin-top: 2.5vh;
+    }
+
+    .jewelry-ethos {
+        width: 90%;
+    }
+
+    #jewellry-about h1 {
+        text-transform: uppercase;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 6vw;
+        color: #333;
+    }
+
+    #jewellry-about h2 {
+        font-size: 5vw;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #jewellry-about p {
+        font-size: 4vw;
+        padding: 0 15%
+    }
+
+    /* contact page */
+
+    #contact-form-section h1 {
+        font-size: 5vw;
+    }
+
+    #contact-form-section h2 {
+        font-size: 3.4vw;
+    }
+
+    #contact-form {
+        text-align: left;
+        padding: 10px 50px 20px 50px;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    #contact-form h3 {
+        font-size: 3vw;
+    }
+
+    #contact-form h2 {
+        margin-bottom: 10px;
+        font-size: 3.8vw;
+    }
+
+    .label-checkbox {
+        font-size: 3.6vw;
+    }
+
+    .text-input {
+        background: white;
+        color: #3a3a3a;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border-radius: 2px;
+    }
+
+    .text-input:hover {
+        border: 2px solid gainsboro;
+    }
+
+    .send-button {
+        color: #333;
+        text-align: center;
+        font-size: 100%;
+        background-color: gainsboro;
+        border-radius: 2px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .send-button:hover {
+        color: gainsboro;
+        background-color: #333;
+    }
+
+    .radio {
+        position: relative;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+
+    #contact-div ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-details p {
+        font-size: 3vw;
+    }
+
+    .contact-details {
+        display: block;
+        align-content: center;
+    }
+
+    #details-div {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+
+    #details-div h2 {
+        font-size: 3.8vw;
+    }
+
+    #contact-wrapper {
+        text-align: center;
+        padding: 10px 30px 30px 30px;
+    }
+
+    #contact-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-div li {
+        list-style: none;
+        text-align: center;
+    }
+
+    .contact-details h3 {
+        font-size: 4vw;
+    }
+
+    .contact-details p {
+        font-size: 80%;
+        text-align: center;
+    }
+
+    /*thank-you page */
+
+    #thankyou-section {
+        width: 100vw;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    #thankyou-section h1 {
+        font-size: 6vw;
+    }
+
+    #thankyou-section h2 {
+        font-size: 3.4vw;
+    }
+
+    #thankyou-section p {
+        font-size: 3vw;
+    }
+
+}

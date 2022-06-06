@@ -130,4 +130,5 @@ This page was originally designed to be a link within the landing page (to demon
 ## Media
 - [Aliana Vilchenko](https://www.pexels.com/@monstera/collections/) Hero Image
 - [Arina Krasnikova](https://www.pexels.com/@arina-krasnikova/) Reiki and Crystal healing images.
+- [Kevin Malik](https://www.pexels.com/@kevin-malik/) Crystal healing image.
 - [Emma Towner](https://www.instagram.com/Coedseren/) Logo and images of jewelry.
