@@ -277,6 +277,8 @@ footer {
     position: relative;
 }
 
+
+
 /* jewellry-about */
 
 #jewellry-about {
@@ -597,23 +599,35 @@ div.desc {
         font-size: 2vw;
     }
 
-    /* Classes page */
+    /* wear page */
 
-    .choose-your-class {
-        width: 80%;
+    #wear-hero-image {
+        margin-top: 2.5vh;
     }
 
-    #about-our-classes h2 {
-        font-size: 2vw;
+    .jewelry-ethos {
+        width: 90%;
     }
 
-    #about-our-classes p {
-        font-size: 1.5vw;
+    #jewellry-about h1 {
+        text-transform: uppercase;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 12vw;
+        color: #333;
     }
 
-    .classes {
-        padding-bottom: 10px;
+    #jewellry-about h2 {
+        font-size: 10vw;
+        text-align: center;
+        margin-top: 10px;
     }
+
+    #jewellry-about p {
+        font-size: 8vw;
+        padding: 0 15%
+    }
+
 
     /* contact page */
 
