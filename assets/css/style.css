@@ -45,6 +45,14 @@ span {
     font-weight: bold;
 }
 
+hr {
+    max-width: 50%;
+    margin-left: 25%;
+    color: #333;
+    border-width: 5px
+    align-content: center;
+}
+
 /* header and logo */
 
 header {
@@ -270,11 +278,36 @@ footer {
     overflow: hidden;
     position: relative;
 }
+#wear-image-text {
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    position: absolute;
+}
+#wear-image-text h1{
+    font-size: 5vw;
+    margin-top: auto;
+    color: #333;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
 #wear-hero-image {
     max-width: 100%;
     height: auto;
     position: relative;
+}
+
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 
@@ -316,9 +349,7 @@ footer {
     padding: 0 15%
 }
 
-.btn-secondary {
-    display: flexbox;
-}
+
 
 div.gallery {
     border: 1px solid #ccc;
@@ -514,6 +545,7 @@ div.desc {
 #thankyou-section p {
     font-size: 1.2vw;
     color: #555;
+    text-align: center;
     padding: 0 15%
 }
 
@@ -613,19 +645,57 @@ div.desc {
         text-transform: uppercase;
         font-weight: lighter;
         text-align: center;
-        font-size: 12vw;
+        font-size: 5vw;
         color: #333;
     }
 
     #jewellry-about h2 {
-        font-size: 10vw;
+        font-size: 3vw;
         text-align: center;
         margin-top: 10px;
     }
 
     #jewellry-about p {
-        font-size: 8vw;
+        font-size: 2vw;
         padding: 0 15%
+    }
+    #wear-hero-image-section {
+        margin-top: 80px;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    #wear-image-text {
+        text-align: center;
+        width: 100%;
+        top: 10px;
+        position: absolute;
+    }
+    #wear-image-text h1{
+        font-size: 5vw;
+        margin-top: 3vw;
+        color: #333;
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    #wear-hero-image {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
+    
+        to {
+            transform: scale(1.1);
+        }
     }
 
 
@@ -813,6 +883,46 @@ div.desc {
         font-size: 4vw;
         padding: 0 15%
     }
+
+    #wear-hero-image-section {
+        margin-top: 80px;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    #wear-image-text {
+        text-align: center;
+        width: 100%;
+        top: 10px;
+        position: absolute;
+    }
+    #wear-image-text h1{
+        font-size: 5vw;
+        margin-top: 3vw;
+        color: #333;
+        animation-name: hero-zoom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    #wear-hero-image {
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
+    
+        to {
+            transform: scale(1.1);
+        }
+    }
+
 
     /* contact page */
 

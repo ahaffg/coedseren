@@ -116,6 +116,7 @@ This page was originally designed to be a link within the landing page (to demon
 - Code Institute for fantastic resources and learing materials.
 - Tutors for their support and knowledge.
 - My mentor [Martina Terlević](https://www.linkedin.com/in/martinaterlevic/) for all the suppot and fantastic information.
+- [Nathan Sebhastian](https://sebhastian.com/css-center-button/#:~:text=To%20center%20an%20HTML%20%3Cbutton%3E%20element%2C%20you%20need,add%20the%20CSS%20property%20to%20the%20%3Cdiv%3E%20tag%3A) for help on aligning button elements.
 
 ## Code
 - Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid 
