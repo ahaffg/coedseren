@@ -13,9 +13,63 @@ A local woman with an expanding jewellery, Crystal Healing and Reiki business wa
 
 The client already has two social media accounts: [Facebook](https://www.facebook.com/Coedseren), [Instagram](https://www.instagram.com/Coedseren/), as well as a selling account on [Folksy](https://folksy.com/shops/Coedseren) (a UK version of Etsy).
 
-## User Experience (UX)
-### User stories
-#### First Time Visitor Goals
+The site contains the home page with three  sections, a "Wear" page in which is possible to see the types of jewellry available as well as testimonials from happy customers. A "Connect" page in which is possible to see all the available ways to get in touch with the client and send them a request via their contact form, and the thank you page to which the user is redirected after filling out and sending the form.
+
+This website is the first of four projects that needs to be completed in order to receive a diploma in Software Development from The Code Institute.
+
+Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
+
+A live version of the project can be found here - https://ahaffg.github.io/coedseren/
+
+# Table of Content
++ [UX](#ux "UX")
+  + [User Demographic](#user-demographic "User Demographic")
+  + [User Stories](#user-stories "User Stories")
+    + [Existing Members](#existing-members "Existing Members")
+    + [New Users](#new-users "New Users")
+  + [User Goals](#user-goals "User Goals")
+  + [Requirements](#requirements "Requirements")
+  + [Design](#design "Design")
+    + [Colors](#colors "Colors")
+    + [Typography](#typography "Typography")
+    + [Images](#images "Images")
++ [Features](#features "Features")
++ [Wireframes](#wireframes "Wireframes")
++ [Initial Design Idea] (#initial-design-idea "Initial Design Idea")
+    + [Header With Logo and Navigation Bar Section](#header-with-logo-and-navigation-bar-section "Header With Logo and Navigation Bar Section")
+    + [Home Page Hero Image Section](#home-page-hero-image-section "Home Page Hero Image Section")
+    + [About Me Section](#about-us-section "About Me Section")
+    + [About Reiki and Crystal Healing Section](#about-reiki-and-crystal-healin-section "About Reiki and Crystal Healing Section")
+    + [Footer Section](#footer-section "Footer Section")
+    + [Wear Hero Image Section](#wear-hero-image-section "Wear Hero Image Section")
+    + [About Jewellry](#about-jewellry-section "About Jewellry Section")
+    + [Testemonial Section](#testemonial-section "Testemonial Section")
+    + [Contact Hero Image Section](#contact-hero-image-section "Contact Hero Image Section")
+    + [Contact Form Section](#contact-form-section "Contact Form Section")
+    + [Thankyoupage Hero Image Section](#thankyoupage-hero-image-section "Thankyoupage Hero Image Section")
+    + [Thankyou Section](#thankyou-section "Thankyou Section")
++ [Future and Development](#future-and-development "Future and development")
+    + [Most Important](#most-important "most-important")
+    + [Additional Pages](#additional-pages "Additional Pages")
+    + [Eventual Aims](#eventual-aims "Eventual Aims")
++ [Technologies used](#technologies-used "Technologies used")
++ [Testing](#testing "Testing")
+  + [Validator Testing](#validator-testing "Validator Testing")
+  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
++ [Development and Deployment](#development-and-deployment "Development and Deployment")
++ [Content](#content "Content")
++ [Media](#media "Media")
++ [Credits](#credits "Credits")
+
+# UX
+
+## User Demographic
+This website is ment for:
+ - Residents and visitors to West Wales who want to know more about Reiki and/or Crystal Healtong.
+ - Local Businesses who want to stock Coedseren's jewellry.
+ - Travelers who are in Vienna and want to practice yoga and/or meditation.
+## User stories
+### First Time Visitor Goals
 -	As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the services and products on offer.
 -	As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 -	As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
@@ -28,12 +82,20 @@ The client already has two social media accounts: [Facebook](https://www.faceboo
 -	As a Frequent User, I want to check to see if there are any new blog posts.
 -	As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to services or products.
 
+
+### Requirements
+A static responsive website that incorporates the technologies I have learned so far that contains some advanced functionality. The development process needs to be well documented through a version controls system such as GitHub.
+Required technologies: HTML, CSS
+
 ## Design
 The client already has a logo which is well associated with her brand. The color scheme and aesthetic will be inspired by this. The aesthetic of the website should reflect the healing element of the clients’ services and allow her jewellery to shine.
 
+Since this is my first HTML/CSS project, the design has been influenced by the ”Love Running” and "Whiskey Drop" project.
+
+My goal was to create a website that could transmit to the users, the calm and warm nature of Coedseren's work and at the same time, the quality and beauty of her Jewelry, through a balance between colors, images and functionality.
 ![Coedseren logo](/assets/images/coedseren-logo.jpg)
 
-### Colour Scheme
+### Colours
 The main colours used are based on the logo, and form a monochromatic palette using “Gainsboro” and “Grey”.
 
 ![Palette](/assets/images/palette.jpg)
@@ -42,12 +104,35 @@ The main colours used are based on the logo, and form a monochromatic palette us
 
 - Colour will be added using photographs which will add to the aesthetic. The client already has images of her jewellery products which can be used on the site, and stock images of healing services will act as placeholders until the client is able to provide her own.
 - Imagery is important. The large, hero image has been chosen becuse it is calming and also has a welcoming, cosy and healing feel.
+- Images have been chosen their color and content. The purpose of the website is to give a calm look and express quality. Images have been sized in order to match the design.
 
-![Hero Iamge](/assets/images/pexels-alina-vilchenko-3610752.jpg)
+![Hero Image](/assets/images/pexels-alina-vilchenko-3610752.jpg)
 
 ## Typography
 
-[Laila](https://fonts.google.com/specimen/Laila) will be used for the text throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. It is a clean font that is easy to read. It reflects the magical aspect of the clients work whilst still being legible. 
+[Laila](https://fonts.google.com/specimen/Laila) will be used for the text throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. It is a clean font that is easy to read. It reflects the magical aspect of the clients work whilst still being legible. 
+
+![Laila font](/assets/images/laila.jpg)
+
+## Features 
+The Coedseren Healing website is a three-page website plus a Thank You Page that consists of the following sections:
+ - Header (Logo/Navigation Bar)
+ - Home Page Hero Image
+ - About Me
+ - About Reiki and Crystal Healing
+ - Footer
+ - Social media and shopping links
+ - "Wear" - Jewellry Hero Image
+ - About my Jewellry
+ - Gallery of Jewellry Images
+ - Customer testimonials
+ - "Connect" Contact Hero Image
+ - Contact Form
+ - Contact Details
+ - Thank you page Hero Image
+ - Thankyou Section
+ - Responsive on all device sizes
+- Interactive elements
 
 ## Wireframes
 
@@ -63,23 +148,71 @@ It is likely that the final designs will look a little different as I become mor
 
 I hope that I am also able to demonstrate a wide range of functions within the website without falling prey to "cotent creep" or implementing function over design.
 
-## Features
-- Responsive on all device sizes
-- Interactive elements
+## Initial Design Idea
 
-## Future and development
+![initial-design-idea](/assets/images/mockup-look.jpg)
 
-### Most important – will be required for initial launch of site.
+This was my original mock-up which I created in order to get a better idea of layout, and how the colours and images would sit together. I was overall happy with the result, but I was a little concerened it might be too cluttered, which is why I tried to strip as much as possible from the final design.
+
+#### Header With Logo and Navigation Bar Section
+  - The Header consists of Coedseren's lgo, that is aligned to the left and a Menu that is aligned to the right.
+  - Featured on all four pages, the navigation bar includes links to the Home page, Wear page and Connect page and is identical in each page to allow for easy navigation.
+  - In order to make navigation easier between the pages, the navigation bar is fixed on top when the user scrolls up an down.
+  - The Header is at a fixed position on top and follows the user as the user scrolls down the page.
+  - Although I could have employed a toggle function to colapse the nav bar on mobile devices, I actually really like how it looks in the smaller version. I feel its still legible and looks very stylish so I have decided to keep it as it is.
+![Header and navigation](/assets/images/screenshot-logo-and-nav-bar.jpg)
+#### Home Page Hero Image Section
+  - The Home Page Hero Image Section contains a hero image, header and a paragraph.
+  - The section was built to welcome the user and convey a warm and friendly atmosphere.
+  - The section also contains a header and a paragraph that gives the user a clear message of what the website is about.
+  - The "Hero-Zoom" animation is used to attract the users attention without being too distracting.
+![Home Page Hero Header Section](/assets/images/screenshot-home-hero-image.jpg
+#### About Me Section
+  - In the About Me Sections the user will find out Coedseren's healing journey and her training.
+  - The purpose of the About Us section is to give users a feel of who Coedseren is and her mission.
+  - The text for this was provided by Coedseren (Emma Towner) herself and as such she hold intellectual rights to this inormation.
+![About Me Section](/assets/images/screenshot-about-me.jpg)
+#### About Reiki and Crystal Healing Section
+  - This section contains two boxes with an image, a heding and a paragraph, each.
+  - The purpose of this section is to give the user some extra information about Reiki and Crystal Healing
+  - Each box has a picture that shows something related to the topic and that brings the user a feeling of relaxation healing.
+  - The text for this peice has been adapted from corresponding Wikipedia articles.
+  ![About Reiki and Crystal Healing Section](/assets/images/screenshot-about-reiki-about-crystal-healing.jpg)
+#### Footer Section
+  - The Footer contains two social media links (Facebook and Instagram) as well as a likn to Coedseren's shop on Folksy (represented with a shopping bag). 
+  - The purpose of the Footer is to provide easy access for the user to the different social media platforms where Coedseren has a presence, as well as to her selling account.
+  - The footer is repeated across all pages to keep a consistent look and to aid ease of use.
+![Footer](/assets/images/screenshot-footer.jpg)
+#### Wear Hero Image Section
+  - The section contains a banner made of three peices of jewellry made by Coedseren.
+  - The title H1 text is again animated and positioned in the same way as the home page, but this time is coloured a dark grey to give some distinction to the page, and also from thee background image.
+  - A statement sentence emphasizes Coedseren's values, and leads the viewer into the main paragraph.
+
+#### Contact Hero Image Section
+  - This section is designed to give the user a welcoming feeling and to encourage them to get in contact with the Studio.
+![Contact Hero Image Section]
+#### Contact Form Section
+  - The Contact Form Section has the purpose to let users get in contact with the Studio in a confortable, esay and fast way.
+  - The Form has four input fields where users must give their first name, last name, email address and a message.
+  - Users also have the option to check whether or not they would like to opt-in to recieve a monthly newsletter.
+  - After sending the request wiht the correct information required in the fields, users will be redirected to a Thank you page.
+![Contact Form Section](/assets/images/contact-form-section.jpg "Contact Form Section")
+
+## Future and Development
+
+### Most Important 
+*will be required for initial launch of site.*
 - Gallery of products with links to external sales sites.
 - Links to social media accounts.
 - Method of contacting client.
 
-### Additional pages/features for development in the near future.
+### Additional Pages
+*features for development in the near future.*
 - Bilingual / Trilingual option.
 - In site booking for healing sessions.
 - Blog where client can update users about new insights or services.
 
-### Eventual aims for the site.
+### Eventual Aims
 - In-site sales.
 - Wholesale orders.
 
@@ -100,16 +233,6 @@ I hope that I am also able to demonstrate a wide range of functions within the w
 7.	Balsamiq: Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
-
-### "Home"
-Although I could have employed a toggle function to colapse the nav bar on mobile devices, I actually really like how it looks in the smaller version. I feel its still legible and looks very stylish so have decided to keep it as it is.
-
-### "Wear"
-*It shoulud be noted that the code for the 'card' elements in this section do not display inline CSS written by myself, but instead are part of the original Bootstrap[https://getbootstrap.com/docs/4.3/components/card/] code.*
-	`<div class="card" style="width: 18rem;">`
-
-### "Healing"
-This page was originally designed to be a link within the landing page (to demonstrate my ability to link withi pages as well as to other pages)to the large text area, however I thought that on a mobile device it would look better if the contents were more spread out.
 
 ## Credits
 - [w3schools](https://www.w3schools.com/Css/css_image_gallery.asp) for responsive css gallery code used on the "Wear" page gallery.
