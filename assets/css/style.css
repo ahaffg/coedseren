@@ -50,7 +50,7 @@ hr {
     margin-left: 25%;
     color: #333;
     border-width: 5px
-    align-content: center;
+    /*align-content: center;*/
 }
 
 /* header and logo */
@@ -527,27 +527,109 @@ div.desc {
     background-color: #333;
 }
 
+#contact-social-section {
+    width: 100%;
+    height: auto;
+}
+
+.contact-social {
+    width: 60%;
+    height: auto;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    display: inline; 
+}
+
+#contact-social-section i {
+    font-size: 5vw;
+    color: #333;
+    text-align: center;
+   /* margin-top: 10px;
+    margin-left: 2vw; */
+    display: inline;
+}
+
+#connect-social h2 {
+    font-size: 5vw;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.contact-social-networks {
+    text-align: center;
+}
+
+.contact-social-networks i {
+    font-size: 6vw;
+    padding: 60px;
+    color:#666;
+}
+
+.contact-social-networks label {
+    font-size: 180%;
+    padding: 20px;
+    color:#555;
+    margin-left: 6vw;
+    float:left;
+}
+
 /* thank you page */
 
 #thankyou-hero-image-section {
-    margin-top: 80px;
-    margin-bottom: 20px;
-    height: max-content;
+    height: auto;
     width: 100%;
+    margin-top: 80px;
     overflow: hidden;
     position: relative;
 }
 
 #thankyou-hero-image {
-    max-width: 100%;
     height: auto;
+    width: 100vw;
     position: relative;
+}
+
+#thankyou-image-text {
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    position: absolute;
+}
+
+#thankyou-image-text h1 {
+    font-size: 5vw;
+    font-weight: lighter;
+    margin-top: auto;
+    color: gainsboro;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#thankyou-image-text h3 {
+    font-size: 1vw;
+    margin-top: auto;
+    color: #999;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #thankyou-section {
     width: 100%;
     height: 280px;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .thankyou {
@@ -559,8 +641,8 @@ div.desc {
     padding-bottom: 3%;
 }
 
-#thankyou-section h1 {
-    text-transform: uppercase;
+#thankyou-image-text h1 {
+    
     font-weight: lighter;
     text-align: center;
     font-size: 3.4vw;
@@ -569,14 +651,14 @@ div.desc {
 
 #thankyou-section h2 {
     font-size: 1.8vw;
-    color: #444;
+    color: #555;
     text-align: center;
     margin-top: 10px;
 }
 
 #thankyou-section p {
     font-size: 1.2vw;
-    color: #555;
+    color: #666;
     text-align: center;
     padding: 0 15%
 }
@@ -772,24 +854,72 @@ div.desc {
         width: 100%;
     }
 
-    #contact-form {
-        width: 50%;
+    #personal-details {
+        font-size: 2vw;
     }
 
-    #details-div {
-        width: 100%;
-        text-align: center;
-        margin-top: 50px;
-        background-color: gainsboro;
-        padding-top: 20px;
+    #newsletter {
+        font-size: 2vw;
     }
+
+    #contact-form {
+        width: 50%;
+    } 
+    
+    #contact-social-section {
+            width: 100%;
+            height: auto;
+    }
+        
+        
+        .contact-social {
+            width: 60%;
+            height: auto;
+            text-align: left;
+            margin: 0 auto;
+            padding-top: 1%;
+            padding-bottom: 3%;
+            display: inline; 
+        }
+        
+        #contact-social-section i {
+            font-size: 5vw;
+            color: #333;
+            text-align: center;
+            display: inline;
+        }
+        
+        #connect-social h2 {
+            font-size: 5vw;
+            color: #555;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        
+        .contact-social-networks {
+            text-align: center;
+        }
+        
+        .contact-social-networks i {
+            font-size: 6vw;
+            padding: 60px;
+            color:#666;
+            float:right;
+        }
+        
+        .contact-social-networks label {
+            font-size: 180%;
+            padding: 20px;
+            color:#555;
+            margin-left: 6vw;
+            float:left;
+        }
 
     /* thank-you section */
 
     #thankyou-section {
         width: 100vw;
-        height: 570px;
-        margin-top: 150px;
     }
 
     #thankyou-section h1 {
@@ -800,7 +930,6 @@ div.desc {
     }
 
     #thankyou-section h2 {
-        text-transform: uppercase;
         font-size: 3.4vw;
         color: #444;
         text-align: center;
@@ -854,7 +983,7 @@ div.desc {
     }
 
     #about-me p {
-        font-size: 8vw;
+        font-size: 4vw;
     }
 
     .my-mission {
@@ -1020,10 +1149,14 @@ div.desc {
         font-size: 3.4vw;
     }
 
+    .contact div>h2 {
+        font-size: 3.4vw;  
+    }
+    
     #contact-form {
         text-align: left;
-        padding: 10px 50px 20px 50px;
-        width: 55%;
+        padding: 10px 10px 20px 10px;
+        width:95%;
         margin: 0 auto;
     }
 
@@ -1068,67 +1201,54 @@ div.desc {
         background-color: #333;
     }
 
-    .radio {
-        position: relative;
-        vertical-align: middle;
-        margin-right: 20px;
-    }
-
-    #contact-div ul {
-        width: 100%;
-        text-align: center;
-    }
-
-    .contact-details p {
+    #newsletter {
         font-size: 3vw;
     }
 
-    .contact-details {
-        display: block;
-        align-content: center;
+    #personal-details {
+        font-size: 3vw;
     }
 
-    #details-div {
-        width: 100%;
-        text-align: center;
-        margin-top: 50px;
-        padding-top: 20px;
+    #contact-form {
+        width: 70%;
+    } 
+    
+    #contact-social-section {
+            width: 100%;
+            height: auto;
     }
 
-    #details-div h2 {
-        font-size: 3.8vw;
+    .form-check-input {
+        margin-left:.1vw ;
     }
 
-    #contact-wrapper {
-        text-align: center;
-        padding: 10px 30px 30px 30px;
+    .contact-social-networks div {
+padding:0;
     }
+        
+        #connect-social h2 {
+            font-size: 5vw;
+            color: #555;
+        }
+        
+        .contact-social-networks label {
+            color:gainsboro;
+        }
 
-    #contact-div {
-        width: 100%;
-        text-align: center;
-    }
+        .col-sm i {
+            font-size:20vw;
+        }
 
-    #contact-div li {
-        list-style: none;
-        text-align: center;
-    }
-
-    .contact-details h3 {
-        font-size: 4vw;
-    }
-
-    .contact-details p {
-        font-size: 80%;
-        text-align: center;
-    }
+        
+        #social-media-links {
+            max-width: 80%;
+            margin-left:10vw;
+        }
 
     /*thank-you page */
 
     #thankyou-section {
         width: 100vw;
-        height: 200px;
-        margin-top: 30px;
     }
 
     #thankyou-section h1 {
