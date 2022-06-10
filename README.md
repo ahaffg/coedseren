@@ -43,9 +43,11 @@ A live version of the project can be found here - https://ahaffg.github.io/coeds
     + [Footer Section](#footer-section "Footer Section")
     + [Wear Hero Image Section](#wear-hero-image-section "Wear Hero Image Section")
     + [About Jewellry](#about-jewellry-section "About Jewellry Section")
-    + [Testemonial Section](#testemonial-section "Testemonial Section")
+    + [Gallery](#gallery "gallery")
+    + [Testimonial Section](#testimonial-section "Testimonial Section")
     + [Contact Hero Image Section](#contact-hero-image-section "Contact Hero Image Section")
     + [Contact Form Section](#contact-form-section "Contact Form Section")
+    + [Social Media Links](#social-media-links "social-media-links")
     + [Thankyoupage Hero Image Section](#thankyoupage-hero-image-section "Thankyoupage Hero Image Section")
     + [Thankyou Section](#thankyou-section "Thankyou Section")
 + [Future and Development](#future-and-development "Future and development")
@@ -187,16 +189,43 @@ This was my original mock-up which I created in order to get a better idea of la
   - The section contains a banner made of three peices of jewellry made by Coedseren.
   - The title H1 text is again animated and positioned in the same way as the home page, but this time is coloured a dark grey to give some distinction to the page, and also from thee background image.
   - A statement sentence emphasizes Coedseren's values, and leads the viewer into the main paragraph.
-
-#### Contact Hero Image Section
-  - This section is designed to give the user a welcoming feeling and to encourage them to get in contact with the Studio.
-![Contact Hero Image Section]
+![Wear-Hero-Image-Section](/assets/images/wear-hero.jpg)
+#### About Jewellry
+  - This section has a paragraph about Coedserens jewellry written by herself.
+  - Three button links follow the paragraph that give the user the option to go to the clients Folksy shop (which will open in a seperate browser) to make a custom or wholesale enquiry (which will take you to the "connect.html" page) or to skip the gallery and see testimonials from other customers.
+  - There is a disclaimer paragraph which has been emboldened to enforce the message, reminding custiomers never to replace doctors advice with complimentary medicine.
+  ![about-jewelry](/assets/images/screenshot-about-jewelry.jpg)
+#### Gallery
+- The jewellry gallery has been designed to be responsive across different media. At its largest it is four images wide and then collapses to 1 image on mobile devices.
+- Initially I had planned for the images to be hyperlinked to their individual pages, but I decided against this as there was no way of updating the image automatically should a piece be sold or removed. This would require a lot ofwork from either myself or the client- something neither of us can commit to!
+- I also removed the capability of the image to be opened as a larger image, as I could not find a way to create a 'back' link, so the user would have had to use the 'back' button in the browser nav bar.
+- All of th images on this page were taken by the clients and I have chosen a variety (along with adaptations of her descriptions) to demonstrate the range and quality of her work.
+![gallery](/assets/images/jewellry-gallery.jpg)
+#### Testimonial Section
+- I felt it was important to include real quotes from some of the reviews the client has recieved on her Folksy selling account, again to reinforce the quality of her products.
+- The quotes have been taken directly from floksy along with the star ratings that the customers gave. I have used font awesome icons to achieve this.
+- Quotes are seperated with a styled HR rule.
+![testimonial-section](/assets/images/testimonials.jpg)
+### Contact Hero Image Section
+  - This section is designed to be in-keeping with the aesthetic of the rest of the site, and to be welcoming to encourage customers to get in touch.
+![Contact-Hero-Image-Section](/assets/images/connect-hero.jpg)
 #### Contact Form Section
-  - The Contact Form Section has the purpose to let users get in contact with the Studio in a confortable, esay and fast way.
+  - The Contact Form Section has the purpose to let users get in contact with the Coedseren in an informal, easy and fast way.
   - The Form has four input fields where users must give their first name, last name, email address and a message.
   - Users also have the option to check whether or not they would like to opt-in to recieve a monthly newsletter.
-  - After sending the request wiht the correct information required in the fields, users will be redirected to a Thank you page.
-![Contact Form Section](/assets/images/contact-form-section.jpg "Contact Form Section")
+  - After sending the request wiht the correct information required in the fields, users will be redirected to a "Thank you" page.
+![Contact-Form-Section](/assets/images/contact-form-section.jpg "Contact Form Section")
+#### Social Media Links
+ - I felt it would also be a good idea to reiforce the option of using the clients social media links.
+ - I have used font awesome Icons and labels to direct users.
+![social-media-links](/assets/images/screenshot-contact-social-media.jpg)
+### Thankyoupage Hero Image Section
+ - I chose a rose quartz image to be the hero banner as I felt it converyed a feeling of gratitude.
+ - The same hero-zoom animation has been applied to the text for continuity.
+ ![thankyou-page-hero-image-section](/assets/images/screenshot-hero-thankyou.jpg)
+#### Thankyou Section
+- I have included a short paragraph to thank viewer for their message, and to reassure them that their message has been sent and recieved by Coedseren.
+![thankyou-section](/assets/images/screenshot-thankyou-message.jpg)
 
 ## Future and Development
 
@@ -218,6 +247,77 @@ This was my original mock-up which I created in order to get a better idea of la
 
 ## Technologies Used
 - Gimp, to edit images.
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+## Testing 
+
+Testing has been conducted using Google Chrome, Mozilla Firefox and Safari. Testing different devices and screen resolutions has been conducted using Google DevTools.
+
+Listed is the main issues discovered.
+
+1. Home page Hero-Image was not staying on the right place after addding the Hero-Image Text.
+ - Solution: Removed it as a background-image from the style.css and moved it to index.html.
+2. First colum of the Meditation Group Table shrinked after inserted the data.
+ - Solution: Adjusted the data inserted.
+3. Hero-Image were not taking 100% of the screen's width.
+ - Solution: Resized the images to a larger size.
+4. When tested in Lighthouse the website received a low score on performance, 73. The reason for thas was that the images size were too big.
+ - Solution: Resized all the images and score increased to 99.
+5. Poor performance on smaller screens. About Us and 2022 Events sections did not place them selfs properly.
+ - Solution: Solved this by using media queries and now the elements are displayed as they should.
+6. Menu not properly aligned with header on small screens and it gets cropped and divided.
+ - Solution: Added new values in the existing media queries.
+7. Menu still gets cropped on screens with resolutions below 320px. It looks good using Google DevTools but not on a physical device
+ - Solution: Solved 20220325 - Removed from Unfixed bugs. Changed View Port Width on fonts in menu.
+
+Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other mistakes. 
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html)
+
+![W3C HTML Validator](/assets/images/readme-images/screenshot-html-validator.png)
+
+- CSS
+  - No errors were returned when passing through the official [(Jigsaw validator)](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html&usermedium=all&vextwarning=&warning=1)
+
+![Jigsaw validator](/assets/images/readme-images/screenshot-css-validator.png)
+
+- Lighthouse testing
+
+![Lighthouse testing score](/assets/images/readme-images/screenshot-lighthouse-test-score.png)
+
+### Unfixed Bugs
+
+- All the bugs were fixed and moved to the section Testing.
+
+## Development and Deployment
+
+The development environment used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+
+The live link can be found here - https://ahaffg.github.io/coedseren/
+
+## Content 
+
+- All text content on this site has been produced by Emma Towner (Coedseren) and adapted by myself, except for; descriptions of [Reiki](https://en.wikipedia.org/wiki/Reiki) and [Crystal healing](https://en.wikipedia.org/wiki/Crystal_healing) which were adapted from Wikipedia articles.
+- The logo is Coedseren's own and was originally designed by Nia Tower.
+- All jewelry images were taken by and belong to Emma Towner (Coedseren), all other images were found on Pexels (See below for credits).
+- The design of the project is inspired by Code Institutes ”Love Running” and "Whiskey Drop" project. Code has been borrowed from that project. Thank-you to the developers at Code Institute for allowing this.
+- The icons in the header, contact and registration and footer were taken from [Font Awesome](https://fontawesome.com/)
+---------------------------------------------------------------------------------------------------------------
 
 ## Languages Used
 - HTML5
@@ -232,8 +332,6 @@ This was my original mock-up which I created in order to get a better idea of la
 6.	GitHub: GitHub is used to store the projects code after being pushed from Git.
 7.	Balsamiq: Balsamiq was used to create the wireframes during the design process.
 
-## Testing
-
 ## Credits
 - [w3schools](https://www.w3schools.com/Css/css_image_gallery.asp) for responsive css gallery code used on the "Wear" page gallery.
 - Code Institute for fantastic resources and learing materials.
@@ -246,10 +344,6 @@ This was my original mock-up which I created in order to get a better idea of la
 
 ## System.
 - [Markdown Cheat Sheets](https://www.markdownguide.org/cheat-sheet) Used to help me costruct this document.
-	
-## Content
-- Descriptions of [Reiki](https://en.wikipedia.org/wiki/Reiki) and [Crystal healing](https://en.wikipedia.org/wiki/Crystal_healing) were adapted from Wikipedia
-- All other content was written by the client (Emma Towner - Coedseren Healing) and the developerdeveloper.
 
 ## Media
 - [Aliana Vilchenko](https://www.pexels.com/@monstera/collections/) Hero Image
