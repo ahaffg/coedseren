@@ -971,7 +971,7 @@ div.desc {
     }
 
     #hero-image-text h1 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     #hero-image-text h3 {
@@ -980,11 +980,11 @@ div.desc {
     }
 
     #about-me h2 {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     #about-me p {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .my-mission {
@@ -1014,21 +1014,21 @@ div.desc {
     }
 
     #about-reiki-header {
-        font-size: 3.6vw;
+        font-size: 6vw;
     }
 
     #about-reiki-content {
-        font-size: 3vw;
+        font-size: 5vw;
         margin: 0;
         padding: 0;
     }
 
     #about-crystal-healing-header {
-        font-size: 3.6vw;
+        font-size: 6vw;
     }
 
     #about-crystal-healing-content {
-        font-size: 3vw;
+        font-size: 5vw;
         margin: 0;
         padding: 0;
     }
@@ -1051,7 +1051,7 @@ div.desc {
     }
 
     .jewelry-ethos {
-        width: 90%;
+        width: 95%;
     }
 
     #jewellry-about h1 {
@@ -1069,7 +1069,7 @@ div.desc {
     }
 
     #jewellry-about p {
-        font-size: 4vw;
+        font-size: 5vw;
         padding: 0 15%
     }
 
@@ -1102,7 +1102,10 @@ div.desc {
         position: relative;
     }
     
-    
+    #quote p {
+        font-size: 5vw;
+    }
+
     @keyframes hero-zoom {
         from {
             transform: scale(1);
@@ -1113,9 +1116,7 @@ div.desc {
         }
     }
 
-    #quote p {
-        font-size: 4vw;
-    }
+    
 
     /* contact page */
 

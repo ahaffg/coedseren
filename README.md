@@ -240,6 +240,7 @@ This was my original mock-up which I created in order to get a better idea of la
 - Bilingual / Trilingual option.
 - In site booking for healing sessions.
 - Blog where client can update users about new insights or services.
+- addition of icons/links on small width formats to allow a "return to top" option.
 
 ### Eventual Aims
 - In-site sales.
@@ -252,24 +253,18 @@ This was my original mock-up which I created in order to get a better idea of la
 
 ## Testing 
 
-Testing has been conducted using Google Chrome, Mozilla Firefox and Safari. Testing different devices and screen resolutions has been conducted using Google DevTools.
+Testing has been conducted using Google Chrome, Mozilla Firefox and Safari. Testing different devices and screen resolutions has been conducted using Google DevTools, as well as family and friends!
 
 Listed is the main issues discovered.
 
-1. Home page Hero-Image was not staying on the right place after addding the Hero-Image Text.
- - Solution: Removed it as a background-image from the style.css and moved it to index.html.
-2. First colum of the Meditation Group Table shrinked after inserted the data.
- - Solution: Adjusted the data inserted.
+1. Home page Hero-Text was not staying on the right place after addding the Hero-Image Text.
+ - Solution: Moved into the same section as the hero image, and made some margin adjutments in style.css.
+2. Images were not loading from the gallery on wear.html
+ - Solution: changed from relartive to aabsolute file path.
 3. Hero-Image were not taking 100% of the screen's width.
  - Solution: Resized the images to a larger size.
-4. When tested in Lighthouse the website received a low score on performance, 73. The reason for thas was that the images size were too big.
- - Solution: Resized all the images and score increased to 99.
-5. Poor performance on smaller screens. About Us and 2022 Events sections did not place them selfs properly.
- - Solution: Solved this by using media queries and now the elements are displayed as they should.
-6. Menu not properly aligned with header on small screens and it gets cropped and divided.
- - Solution: Added new values in the existing media queries.
-7. Menu still gets cropped on screens with resolutions below 320px. It looks good using Google DevTools but not on a physical device
- - Solution: Solved 20220325 - Removed from Unfixed bugs. Changed View Port Width on fonts in menu.
+4. Poor performance on smaller screens. Text harder to read.
+ - Solution: Solved this by using media queries and also altering the font color.
 
 Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other mistakes. 
 
@@ -281,9 +276,8 @@ Apart from these issues there have been several minor issues. The majority of th
 ![W3C HTML Validator](/assets/images/readme-images/screenshot-html-validator.png)
 
 - CSS
-  - No errors were returned when passing through the official [(Jigsaw validator)](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html&usermedium=all&vextwarning=&warning=1)
-
-![Jigsaw validator](/assets/images/readme-images/screenshot-css-validator.png)
+  - No errors were returned when passing through the official [(Jigsaw validator)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fahaffg.github.io%2Fcoedseren%2Fwear.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![Jigsaw validator](/assets/images/css-validation-success.jpg)
 
 - Lighthouse testing
 
