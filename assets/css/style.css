@@ -65,12 +65,6 @@ header {
     z-index: 5;
 }
 
-#menu a {
-    color:#333;
-    font-size: 2vw;
- 
-}
-
 #logo {
     float: left;
     margin-left: 40px;
@@ -86,7 +80,7 @@ header {
 }
 
 #menu li {
-    font-size: 1.2vw;
+    font-size: 2vw;
     float: right;
     list-style-type: none;
     margin-right: 40px;
@@ -99,7 +93,7 @@ header {
 
 #menu a {
     text-decoration: none;
-    color: #999;
+    color: #333;
 }
 
 #menu a:hover {
