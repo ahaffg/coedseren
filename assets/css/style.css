@@ -68,6 +68,7 @@ header {
 #menu a {
     color:#333;
     font-size: 2vw;
+ 
 }
 
 #logo {
@@ -672,8 +673,7 @@ div.desc {
 @media screen and (min-width: 480px) and (max-width: 920px) {
 
     #menu li {
-            color:#333;
-            font-size: 3vw;   
+        font-size: 2vw;
     }
 
     #menu {
@@ -955,10 +955,8 @@ div.desc {
 @media screen and (min-width: 0px) and (max-width: 480px) {
 
     #menu li {
+        font-size: 2.8vw;
         margin-right: 30px;
-        color:#333;
-        font-size: 3vw;   
-    }
     }
 
     #menu {
