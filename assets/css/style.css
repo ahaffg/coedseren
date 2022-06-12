@@ -43,6 +43,7 @@ p {
 span {
     color: #333;
     font-weight: bold;
+    
 }
 
 hr {
@@ -50,18 +51,24 @@ hr {
     margin-left: 25%;
     color: #333;
     border-width: 5px
-    /*align-content: center;*/
 }
 
 /* header and logo */
 
 header {
+
     background-color: gainsboro;
     height: 80px;
     width: 100%;
-    margin-top: -80px;
+    margin-top: -100px;
     position: fixed;
     z-index: 5;
+}
+
+#menu a {
+    color:#333;
+    font-size: 4vw;
+    font-weight: bolder;
 }
 
 #logo {
