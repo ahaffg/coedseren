@@ -271,21 +271,21 @@ Apart from these issues there have been several minor issues. The majority of th
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html)
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fahaffg.github.io%2Fcoedseren%2F)
 
-![W3C HTML Validator](/assets/images/readme-images/screenshot-html-validator.png)
+![W3C HTML Validator](/assets/images/screenshot-w3c-validator.jpg)
 
 - CSS
   - No errors were returned when passing through the official [(Jigsaw validator)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fahaffg.github.io%2Fcoedseren%2Fwear.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 ![Jigsaw validator](/assets/images/css-validation-success.jpg)
 
 - Lighthouse testing
-
-![Lighthouse testing score](/assets/images/readme-images/screenshot-lighthouse-test-score.png)
+I understand that this site is currently image-heavy, but I think that the images are so importand- their quality should not be sacrificed.
+![Lighthouse testing score](/assets/images/screenshot-lighthouse.jpg)
 
 ### Unfixed Bugs
 
-- All the bugs were fixed and moved to the section Testing.
+- As  identified by Lighthouse, the site does take longer to load than normal. However, as previously stated, I feel image quality is too importand to compromise.
 
 ## Development and Deployment
 
@@ -332,6 +332,7 @@ The live link can be found here - https://ahaffg.github.io/coedseren/
 - Tutors for their support and knowledge.
 - My mentor [Martina Terlević](https://www.linkedin.com/in/martinaterlevic/) for all the suppot and fantastic information.
 - [Nathan Sebhastian](https://sebhastian.com/css-center-button/#:~:text=To%20center%20an%20HTML%20%3Cbutton%3E%20element%2C%20you%20need,add%20the%20CSS%20property%20to%20the%20%3Cdiv%3E%20tag%3A) for help on aligning button elements.
+- Emma Towner, Huw Davies and Gary Griffiths for testing and feeding back any issues.
 
 ## Code
 - Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid 
