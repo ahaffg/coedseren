@@ -35,7 +35,6 @@ A live version of the project can be found here - https://ahaffg.github.io/coeds
     + [Images](#images "Images")
 + [Features](#features "Features")
 + [Wireframes](#wireframes "Wireframes")
-+ [Initial Design Idea] (#initial-design-idea "Initial Design Idea")
     + [Header With Logo and Navigation Bar Section](#header-with-logo-and-navigation-bar-section "Header With Logo and Navigation Bar Section")
     + [Home Page Hero Image Section](#home-page-hero-image-section "Home Page Hero Image Section")
     + [About Me Section](#about-us-section "About Me Section")
@@ -149,8 +148,6 @@ Desktop Wireframe.
 It is likely that the final designs will look a little different as I become more familiar with the technologies and implications of responsive design, however I hope that I will be able to achieve something similar to this. I believe these designs are clean, intuative and encourage interaction and exploration.
 
 I hope that I am also able to demonstrate a wide range of functions within the website without falling prey to "content creep" or implementing function over design.
-
-## Initial Design Idea
 
 ![initial-design-idea](/assets/images/mockup-look.jpg)
 
